@@ -13,12 +13,12 @@ With MagicTables Transformer, you can easily transform tables in the traditional
 To use this library, simply include the tableTransformer.js file in your project.
 
 
-<script src="tableTransformer.js"></script>
+<script src="MagicTablesConverter.js"></script>
 ## Usage
 
 ```javascript
 const response = "Your response with markdown table";
-const htmlTable = TableTransformer.transformTable(response);
+const htmlTable = MagicTablesConverter.convertMarkdownToHTMLTables(response);
 console.log(htmlTable);
 ```
 
