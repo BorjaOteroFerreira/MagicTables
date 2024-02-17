@@ -2,9 +2,9 @@
 
 const MagicTablesConverter = {
     /**
-     * Converts markdown tables to HTML tables.
+     * Converts markdown tables to HTML table.
      * @param {string} markdown - The markdown containing tables.
-     * @returns {string} - HTML tables.
+     * @returns {string} - HTML table.
      */
     convertMarkdownToHTMLTables: function(markdown) {
         const tableRegex = /(?:\|.*(?:\|).*)+\|/gs;
