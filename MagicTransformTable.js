@@ -1,4 +1,6 @@
-        const tableRegex = /(?:\|.*(?:\|).*)+\|/gs;
+/**@Author: Borja Otero Ferreira */
+
+const tableRegex = /(?:\|.*(?:\|).*)+\|/gs;
         let htmlResponse = this.response.replace(tableRegex, (table) => {
             const rows = table.trim().split('\n').map(row => row.trim().split('|').filter(cell => cell.trim() !== ''));
             let htmlTable = '<table>';
