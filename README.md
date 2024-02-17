@@ -30,9 +30,7 @@ OR...
 
 
 ```javascript
-If(!pullrequest && !putIssue){
-  user.donate(CoffeWhitPaypal);
-}
+!pullrequest && !putIssue ? user.donate(CoffeWhitPaypal) : null;
 ```
 
 console.log( [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/borjaoteroferreira) );
