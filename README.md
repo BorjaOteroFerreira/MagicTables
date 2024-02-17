@@ -14,8 +14,8 @@ To use this library, simply include the MasgicTablesConverter.js file in your pr
 
 ```html
 <script src="MagicTablesConverter.js"></script>
-## Usage
 ```
+## Usage
 
 ```javascript
 const response = "Your response with markdown table";
