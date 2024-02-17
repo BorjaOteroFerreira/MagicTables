@@ -1,6 +1,6 @@
 /**@Author: Borja Otero Ferreira */
 
-const MarkdownTableConverter = {
+const MagicTablesConverter = {
     /**
      * Converts markdown tables to HTML tables.
      * @param {string} markdown - The markdown containing tables.
