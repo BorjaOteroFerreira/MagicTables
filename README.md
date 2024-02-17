@@ -1,25 +1,31 @@
 # MagicTables
-Transform MarkDown Tables In HTML tables 
 
-Esta es una pequeña biblioteca que convierte tablas escritas en markdown a su equivalente en HTML.
+This is a small library that converts markdown tables into their HTML table counterparts.
 
-## Instalación
+## Why do you need this library?
 
-Para utilizar esta biblioteca, simplemente incluye el archivo `tableTransformer.js` en tu proyecto.
+Many extended libraries for Markdown processing do not include features for formatting tables directly. Additionally, some libraries only format tables if they are written in specific formats with embedded variables, which may limit their usefulness in more general use cases.
 
-```html
+With Markdown Table Transformer, you can easily transform tables in the traditional Markdown format into HTML tables. This fills a common need for those working with Markdown and needing a quick and easy way to convert tables for use in web pages or HTML documents.
+
+
+## Installation
+To use this library, simply include the tableTransformer.js file in your project.
+
+
 <script src="tableTransformer.js"></script>
-Uso
-javascript
-Copy code
-const response = "Tu respuesta con markdown de la tabla";
+## Usage
+
+´´´javascript
+const response = "Your response with markdown table";
 const htmlTable = TableTransformer.transformTable(response);
 console.log(htmlTable);
-```
+´´´
 
-## Contribución
-¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejorar esta biblioteca, no dudes en abrir un problema o enviar una solicitud de extracción.
+## Contribution
+Contributions are welcome! If you find any bugs or have suggestions to improve this library, feel free to open an issue or submit a pull request. or with a coffe..
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/borjaoteroferreira)
 
-## Code & license 
-This code released under the [MIT License](https://github.com/BorjaOteroFerreira//MagicTables/blob/main/LICENSE)
+### Code & License
+This code is released under the MIT License
 
