@@ -24,6 +24,8 @@ console.log(htmlTable);
 
 ## Contribution
 Contributions are welcome! If you find any bugs or have suggestions to improve this library, feel free to open an issue or submit a pull request. or with a coffe..
+
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/borjaoteroferreira)
 
 ### Code & License
