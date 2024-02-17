@@ -16,11 +16,11 @@ To use this library, simply include the tableTransformer.js file in your project
 <script src="tableTransformer.js"></script>
 ## Usage
 
-´´´javascript
+```javascript
 const response = "Your response with markdown table";
 const htmlTable = TableTransformer.transformTable(response);
 console.log(htmlTable);
-´´´
+```
 
 ## Contribution
 Contributions are welcome! If you find any bugs or have suggestions to improve this library, feel free to open an issue or submit a pull request. or with a coffe..
