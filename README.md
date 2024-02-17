@@ -1,4 +1,4 @@
-# MagicTables
+# MagicTables Transformer
 
 This is a small library that converts markdown tables into their HTML table counterparts.
 
@@ -6,7 +6,7 @@ This is a small library that converts markdown tables into their HTML table coun
 
 Many extended libraries for Markdown processing do not include features for formatting tables directly. Additionally, some libraries only format tables if they are written in specific formats with embedded variables, which may limit their usefulness in more general use cases.
 
-With Markdown Table Transformer, you can easily transform tables in the traditional Markdown format into HTML tables. This fills a common need for those working with Markdown and needing a quick and easy way to convert tables for use in web pages or HTML documents.
+With MagicTables Transformer, you can easily transform tables in the traditional Markdown format into HTML tables. This fills a common need for those working with Markdown and needing a quick and easy way to convert tables for use in web pages or HTML documents.
 
 
 ## Installation
