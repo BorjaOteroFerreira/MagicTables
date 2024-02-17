@@ -35,7 +35,7 @@ If(!pullrequest && !putIssue){
 }
 ```
 
-system.out.println([![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/borjaoteroferreira))
+console.log( [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/borjaoteroferreira) );
 
 ### Code & License
 This code is released under the MIT License
