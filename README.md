@@ -10,7 +10,7 @@ With MagicTables Transformer, you can easily transform tables in the traditional
 
 
 ## Installation
-To use this library, simply include the tableTransformer.js file in your project.
+To use this library, simply include the MasgicTablesConverter.js file in your project.
 
 
 <script src="MagicTablesConverter.js"></script>
