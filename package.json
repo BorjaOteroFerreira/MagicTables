@@ -1,8 +1,8 @@
 {
-  "name": "magic-tables-transformer",
+  "name": "magic-tables-converter",
   "version": "1.0.0",
   "description": "A small library to convert markdown tables to HTML tables.",
-  "main": "MagicTransformTable.js",
+  "main": "MagicTablesConverter.js",
   "keywords": [
     "markdown",
     "table",
