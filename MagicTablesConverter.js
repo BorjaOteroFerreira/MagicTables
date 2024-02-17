@@ -31,6 +31,6 @@ const MagicTablesConverter = {
 
 /** Example usage:
 const markdown = "Your markdown text with tables";
-const htmlTables = MarkdownTableConverter.convertMarkdownToHTMLTables(markdown);
+const htmlTables = MagicTablesConverter.convertMarkdownToHTMLTables(markdown);
 console.log(htmlTables); 
 */
