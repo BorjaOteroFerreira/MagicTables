@@ -30,4 +30,5 @@ Contributions are welcome! If you find any bugs or have suggestions to improve t
 
 ### Code & License
 This code is released under the MIT License
+[MIT License](https://github.com/BorjaOteroFerreira/MagicTables/blob/main/LICENSE)
 
