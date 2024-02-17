@@ -1,4 +1,4 @@
-# MagicTables Transformer
+# MagicTables Converter
 
 This is a small library that converts markdown tables into their HTML table counterparts.
 
