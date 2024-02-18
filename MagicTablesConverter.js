@@ -10,26 +10,24 @@ const MagicTablesConverter = {
         const tableRegex = /(?:\|.*(?:\|).*)+\|/gs;
         let htmlResponse = this.markdown.replace(tableRegex, (table) => {
         const rows = table.trim().split('\n').map(row => row.trim().split('|').filter(cell => cell.trim() !== ''));
-      
-            const filteredRows = rows.filter(row => !row.some(cell => cell.includes('---')));
-        
-            let htmlTable = '<table>';
-            for (let i = 0; i < filteredRows.length; i++) {
-                htmlTable += '<tr>';
-                for (let j = 0; j < filteredRows[i].length; j++) {
-                    if (i === 0) {
-                        htmlTable += `<th>${filteredRows[i][j]}</th>`;
-                    } else {
-                        htmlTable += `<td>${filteredRows[i][j]}</td>`;
-                    }
+        const filteredRows = rows.filter(row => !row.some(cell => cell.includes('---')));
+        let htmlTable = '<table>';
+        for (let i = 0; i < filteredRows.length; i++) {
+            htmlTable += '<tr>';
+            for (let j = 0; j < filteredRows[i].length; j++) {
+                if (i === 0) {
+                    htmlTable += `<th>${filteredRows[i][j]}</th>`;
+                } else {
+                    htmlTable += `<td>${filteredRows[i][j]}</td>`;
                 }
-                htmlTable += '</tr>';
             }
-            htmlTable += '</table>';
-            return htmlTable;
-        });
-        return htmlResponse;
-    }
+            htmlTable += '</tr>';
+        }
+        htmlTable += '</table>';
+        return htmlTable;
+    });
+    return htmlResponse;
+}
 };
 
 /** Example usage:
